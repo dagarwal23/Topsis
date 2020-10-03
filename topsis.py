@@ -17,9 +17,9 @@ class Topsis:
         features = self.features
         samples = self.samples       
         if w==None:
-           w=[1]*features
+        	w=[1]*features
         if im==None:
-         im=["+"]*features
+        	im=["+"]*features
         ideal_best=[]
         ideal_worst=[]
         for i in range(0,features):
